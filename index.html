@@ -2,7 +2,7 @@
 <html lang="pt-br"> <!--Informa a linguagem do site-->
 <head> <!--Cabecalho (Estrutura)-->
     <meta charset="UTF-8"> <!--refere-se a padrao caractere-->
-    <meta name="" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="shortcut icon" type="imagex/png" href="./img/LogoBioWood.png">
     <script src="https://kit.fontawesome.com/bf69d795b0.js" crossorigin="anonymous"></script>
@@ -33,25 +33,7 @@
                         <h2>Transformando Resíduos em Arte</h2>
                         <p>Descubra como transformamos madeira descartada em produtos incríveis.</p>
                     </div>
-                </div>
-                <div class="carousel-slide">
-                    <img src="./img/Carrosel 2.jpg" alt="brinquedo">
-                    <div class="carousel-caption">
-                        <h2>Brinquedos Artesanais</h2>
-                        <p>Brinquedos únicos feitos com amor e sustentabilidade.</p>
-                    </div>
-                </div>
-                <div class="carousel-slide">
-                    <img src="./img/carrosel 3.jpeg" alt="coins-sustentabilidade">
-                    <div class="carousel-caption">
-                        <h2>Brinquedos Artesanais</h2>
-                        <p>Brinquedos únicos feitos com amor e sustentabilidade.</p>
-                        <h2>Decoração Sustentável</h2>
-                        <p>Produtos que embelezam sua casa e respeitam o meio ambiente.</p>
-                    </div>
-                </div>
-                <button class="carousel-button prev" onclick="moveToPrevSlide()">&#10094;</button>
-                <button class="carousel-button next" onclick="moveToNextSlide()">&#10095;</button>                
+                </div>                
             </div>
         </section>
         <section class="about-us-section">
@@ -95,312 +77,70 @@
                 </div>
         </section>
         <section class="products-section">
-            <h2>Produtos</h2>  <!---->
+            <h2 class="prod">Produtos</h2>  <!---->
             <div class="products-container">
                 <!--Produto 1-->
                 <div class="product-card">
-                    <img src="" alt="Petisqueira" class="product-image">
-                    <h3>Petisqueira</h3> <!---->
-                    <p>Nossa petisqueira sustentável é protegida com cera de abelha, que evita a oxidação da madeira e é ideal para contato com alimentos. Com um formato redondo de 25cm x 25cm, espessura de 1,5 cm e peso de 1,5 kg, esta petisqueira tem durabilidade de 2 anos e é perfeita para organizar e apresentar alimentos de forma elegante.</p>
-                    <p class="product-price">R$ 180,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
+                    <img src="/img/Decorações.jpeg" alt="Decorações" class="product-image">
+                    <h3>Decorações</h3> <!---->
+                    <p>Decorações exclusivas feitas de madeira reciclada para embelezar qualquer ambiente.</p>
                 </div>
                 <!--Produto 2-->
                 <div class="product-card">
-                    <img src="" alt="Suporte Monjolo" class="product-image">
-                    <h3>Suporte monjolo cadeirinha para mini jardim de suculentas</h3>
-                    <p>Feitos de madeira REUTILIZADA (a suculenta não vem inclusa)</p>
-                    <p class="price">R$ 25,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
+                    <img src="/img/Moveis.jpg" alt="Móveis" class="product-image">
+                    <h3>Móveis</h3>
+                    <p>Móveis modernos e sustentáveis que transformam qualquer espaço em um lar aconchegante.</p>
                 </div>
                 <!--Produto 3-->
                 <div class="product-card">
-                    <img src="" alt="Suporte de planta" class="product-image">
-                    <h3>Suporte de planta para mini suculentas</h3>
-                    <p>Modelos variados, para você se apaixonar por todos!</p>
-                    <p class="price">R$ 40,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
+                    <img src="/img/Brinquedos.jpeg" alt="Brinquedos" class="product-image">
+                    <h3>Brinquedos</h3>
+                    <p>Brinquedos seguros e duráveis que encantam as crianças, feitos de materiais ecológicos.</p>
                 </div>
                 <!--Produto 4-->
                 <div class="product-card">
-                    <img src="" alt="Portas-chaves de madeira" class="product-image">
-                    <h3>Portas-chaves de madeira</h3>
-                    <p>Formato chave. 30X25, 6 ganchos de travessas.</p>
-                    <p class="price">R$ 30,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 5-->
-                <div class="product-card">
-                    <img src="" alt="Portas-chaves retangular" class="product-image">
-                    <h3>Portas-chaves retangular</h3>
-                    <p>15 cm, 5 ganchos</p>
-                    <p class="price">R$ 20,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 6-->
-                <div class="product-card">
-                    <img src="" alt="Porta Chave 3D Verde Água" class="product-image">
-                    <h3>Porta Chave 3D Verde Água</h3>
-                    <p>17 cm, 17</p>
-                    <p class="price">R$ 35,60</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 7-->
-                <div class="product-card">
-                    <img src="" alt="Porta-Treco" class="product-image">
-                    <h3>Porta-Treco</h3>
-                    <p>Madeira tratada espaço para celular e fundo de 15cm.</p>
-                    <p class="price">R$</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 8-->
-                <div class="product-card">
-                    <img src="" alt="Vasinhos Decorativos" class="product-image">
-                    <h3>Vasinhos Decorativos</h3>
-                    <p></p>
-                    <p class="price">R$ 28,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 9-->
-                <div class="product-card">
-                    <img src="" alt="Moldura para Fotos" class="product-image">
-                    <h3>Moldura para Fotos</h3>
-                    <p>Molduras para fotos feitos com cuidados especiais e em modelos de tatilorafia, tamanhos de preferencia do cliente!</p>
-                    <p class="price">R$ 30,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 10-->
-                <div class="product-card">
-                    <img src="" alt="Luminárias" class="product-image">
-                    <h3>Luminárias</h3>
-                    <p>Nossas luminárias de madeira reciclada combinam sustentabilidade e design elegante.</p>
-                    <p class="price">R$ 79,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 11-->
-                <div class="product-card">
-                    <img src="" alt="Espelhos" class="product-image">
-                    <h3>Espelhos</h3>
-                    <p>Nossos espelhos com molduras de madeira reciclada combinam elegância e sustentabilidade. Cada moldura é única e feita para adicionar um toque de estilo rústico e eco-friendly ao seu espaço, refletindo autenticidade e respeito ao meio ambiente.</p>
-                    <p class="price">R$ 159,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 12-->
-                <div class="product-card">
-                    <img src="" alt="Relógios de Madeira" class="product-image">
-                    <h3>Relógios de Madeira</h3>
-                    <p>Nossos relógios de madeira reciclada são perfeitos para adicionar um toque rústico e elegante ao seu ambiente. Cada peça é única, combinando funcionalidade e design sustentável. Mantenha-se pontual com estilo e respeito ao meio ambiente.</p>
-                    <p class="price">R$ 55,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 13-->
-                <div class="product-card">
-                    <img src="" alt="Caixas Organizadoras" class="product-image">
-                    <h3>Caixas Organizadoras</h3>
-                    <p>Nossas caixas organizadoras de madeira reciclada são práticas e elegantes. Cada peça é única, ideal para manter seus itens organizados de forma sustentável e estilosa.</p>
-                    <p class="price">R$ 55,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 14-->
-                <div class="product-card">
-                    <img src="" alt="Quebra-Cabeças de Madeira" class="product-image">
-                    <h3>Quebra-Cabeças de Madeira</h3>
-                    <p>Nossos quebra-cabeças de madeira reciclada são divertidos e desafiadores. Cada peça é única, proporcionando entretenimento sustentável e durável.</p>
-                    <p class="price">R$ 35,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 15-->
-                <div class="product-card">
-                    <img src="" alt="Bloquinhos de Construção de Madeira" class="product-image">
-                    <h3>Bloquinhos de Construção de Madeira</h3>
-                    <p>Nossos bloquinhos de construção de madeira reciclada são educativos e divertidos. Cada peça é única, proporcionando horas de brincadeira sustentável. Ideais para desenvolver a criatividade e coordenação motora com um toque eco-friendly.</p>
-                    <p class="price">R$ 67,50</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 16-->
-                <div class="product-card">
-                    <img src="" alt="Jogo de Xadrez" class="product-image">
-                    <h3>Jogo de Xadrez</h3>
-                    <p>Nossos jogos de tabuleiro de madeira reciclada são envolventes e duráveis. Cada jogo é feito para proporcionar diversão sustentável, combinando qualidade e respeito ao meio ambiente.</p>
-                    <p class="price">R$ 25,90</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 17-->
-                <div class="product-card">
-                    <img src="" alt="Colheres de Madeira" class="product-image">
-                    <h3>Colheres de Madeira</h3>
-                    <p>Detalhadas na tatilografia manual tamanho 14cm</p>
-                    <p class="price">R$</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 18-->
-                <div class="product-card">
-                    <img src="" alt="Tábuas de Corte" class="product-image">
-                    <h3>Tábuas de Corte</h3>
-                    <p></p>
-                    <p class="price">R$</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 19-->
-                <div class="product-card">
-                    <img src="" alt="Fruteiras" class="product-image">
-                    <h3>Fruteiras de Chão em Madeira</h3>
-                    <p>3 gavetas, vernizada em cera de abelha e tamanho padrão</p>
-                    <p class="price">R$ 200,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 20-->
-                <div class="product-card">
-                    <img src="" alt="Camas" class="product-image">
-                    <h3>Camas</h3>
-                    <p>Feitas de madeira reciclada, nossas camas e cabeceiras combinam sustentabilidade e elegância. Cada peça é única e garante durabilidade. Perfeito para um toque autêntico e eco-friendly no seu quarto.</p>
-                    <p class="price">R$ 1.500,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 21-->
-                <div class="product-card">
-                    <img src="" alt="Estantes" class="product-image">
-                    <h3>Estantes</h3>
-                    <p>Nossas estantes de madeira reciclada são ideais para organizar e decorar. Combinam sustentabilidade e design moderno, cada peça é única, garantindo durabilidade e estilo ao seu espaço.</p>
-                    <p class="price">R$ 1.200,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 22-->
-                <div class="product-card">
-                    <img src="" alt="Prateleiras" class="product-image">
-                    <h3>Prateleiras</h3>
-                    <p>Nossas prateleiras de madeira reciclada são ideais para organizar e decorar. Combinam sustentabilidade e design moderno, cada peça é única, garantindo durabilidade e estilo ao seu espaço.</p>
-                    <p class="price">R$ 1.600,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 23-->
-                <div class="product-card">
-                    <img src="" alt="Armário de cozinha" class="product-image">
-                    <h3>Armário de cozinha</h3>
-                    <p>Feitos de madeira reciclada, nossos armários e guarda-roupas combinam sustentabilidade com design elegante.</p>
-                    <p class="price">R$ 2.100,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 24-->
-                <div class="product-card">
-                    <img src="" alt="Guarda-Roupa" class="product-image">
-                    <h3>Guarda-Roupa</h3>
-                    <p>Feitos de madeira reciclada, nossos armários e guarda-roupas combinam sustentabilidade com design elegante.</p>
-                    <p class="price">R$ 1.800,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 25-->
-                <div class="product-card">
-                    <img src="" alt="Bancos" class="product-image">
-                    <h3>Bancos</h3>
-                    <p>Feitos de madeira reciclada, nossos bancos combinam sustentabilidade e elegância. Cada peça é única e durável, trazendo conforto e estilo para qualquer ambiente.</p>
-                    <p class="price">R$ 400,00</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
-                </div>
-                <!--Produto 26-->
-                <div class="product-card">
-                    <img src="" alt="Banquetas" class="product-image">
-                    <h3>Banquetas</h3>
-                    <p>Feitos de madeira reciclada, nossas banquetas combinam sustentabilidade e elegância. Cada peça é única e durável, trazendo conforto e estilo para qualquer ambiente.</p>
-                    <p class="price">R$</p>
-                    <div class="product-buttons">
-                        <button class="add-to-cart">Adicionar ao Carrinho</button>
-                        <button class="buy-now">Comprar</button>
-                    </div>
+                    <img src="/img/Utensilios cozinha.jpeg" alt="Utensilios de Cozinha" class="product-image">
+                    <h3>Utensilios de Cozinha</h3>
+                    <p>Utensílios de madeira práticos e ecológicos que trazem estilo e sustentabilidade para sua cozinha.</p>
                 </div>
             </div>
         </section>
-        <h2>Contatos</h2> <!---->
-        <img src="" alt="" srcset="" id="Victor_Hugo"> <!---->
-        <p>Gerente de RH - Victor Hugo</p> <!---->
-        <img src="" alt="" srcset="" id="Wesley_Silva"> <!---->
-        <p>Gerente de Produção - Wesley Silva</p> <!---->
-        <img src="" alt="" srcset="" id="Livia_Andrade"> <!---->
-        <p>Gerente de Projetos - Lívia Andrade</p> <!---->
-        <img src="" alt="" srcset="" id="Paloma_Oliveira"> <!---->
-        <p>Gerente de Financeiro - Paloma Oliveira</p> <!---->
-        <img src="" alt="" srcset="" id="Larissa_Rocha"> <!---->
-        <p>Gerente de Marketing - Larissa Rocha</p> <!---->
-        <h2>Blog</h2>
+        <section>
+            <h2>Nosso Processo de Produção</h2>
+            <div class="process-container">
+                <!--Produção 1-->
+                <div class="process-card">
+                    <img src="/img/Higenização.jpeg" alt="Higienização e Secagem" class="product-image">
+                    <h3>Higienização e Secagem</h3>
+                    <p>As madeiras são higienizadas e, em seguida, secas naturalmente ou em câmaras.</p>
+                </div>
+                <!--Produção 2-->
+                <div class="process-card">
+                    <img src="/img/Lixamento.jpeg" alt="Lixamento e Corte" class="product-image">
+                    <h3>Lixamento e Corte</h3>
+                    <p>As madeiras secas são lixadas e cortadas para uniformidade, coladas e novamente lixadas para fabricação.</p>
+                </div>
+                <!--Produção 3-->
+                <div class="process-card">
+                    <img src="/img/Colagem.jpeg" alt="Colagem e Acabamento" class="product-image">
+                    <h3>Colagem e Acabamento</h3>
+                    <p>As peças são coladas e passam pelo acabamento final, incluindo a aplicação de cera de abelha para proteção e estética.</p>
+                </div>
+            </div>
+        </section>
+        
 
     </main> <!--Fecha o meio da pagina-->
     <footer> <!--Abre o rodape da pagina-->
-
+        <h2>FAQs</h2>
+        <i class="fa-solid fa-earth-americas"></i>
+        <p>Junte-se a nós na Biowood e transforme o futuro com sustentabilidade e inovação!</p>
+        <a href="mailto:biowoodoficial@gmail.com"><i class="fa-sharp fa-solid fa-envelope"></i></a> <!--E-mail-->
+        <p>biowoodoficial@gmail.com</p>
+        <i class="fa-brands fa-facebook"></i><!--Facebook-->
+        <p>BioWood</p>
+        <a href="https://www.instagram.com/_biowood_/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a> <!--Instagram-->
+        <p>_biowood_</p>
     </footer> <!--fecha o rodape da pagina-->
     <script src="./js/script.js"></script>
 </body> <!--Fecha a estrutua do HTML-->
